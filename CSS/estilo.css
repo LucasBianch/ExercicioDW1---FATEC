@@ -1,0 +1,249 @@
+div#layout{
+    border-left: 10px solid rgb(140, 2, 2);
+    border-bottom: 10px solid rgb(140, 2, 2);
+    border-right: 8px solid rgb(140, 2, 2);
+    border-top: 3px solid rgb(140, 2, 2);
+    margin: 0 auto;
+    width: 750px;
+    height: 750px;
+    background-color: white;
+    font-family: Helvetica, sans-serif;
+}
+body div#layout header p{
+    font-size: 8pt;
+    height: 100px;
+    border-bottom: 4px solid rgb(140, 2, 2);
+}
+body div#layout nav{
+    font-weight: bolder;
+    font-size: 12pt;
+    text-align: center;
+    border-right: 4px solid rgb(140, 2, 2);
+    background-color: rgb(219, 188, 146);
+    width: 25%;
+    height: 78%;
+    float: left;
+}
+body div#layout nav ul li a{
+    color: black;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 1px; 
+}
+body div#layout nav ul li{
+    margin: 40px 0 0 0;
+}
+footer{
+    border-top: 5px solid rgb(140, 2, 2);
+    text-align: center;
+    clear: both;
+}
+footer p#footer{
+    margin-top: 20px;
+    font-size: 11pt;
+}
+footer span{
+    color: brown;
+} 
+/*Início CSS HOME*/
+body div#layout main.home img#hd{
+    width: 175px;
+    height: 210px;
+    float: left;
+    margin: 5px 0 0 5px;
+}
+p#harddisk1{ 
+    text-align: left;
+    text-indent: 30pt;
+    font-size: 12pt;
+    margin: 10px 10px 0 200px;
+    line-height: 20px;
+}
+p#harddisk2{
+    text-align: left;
+    font-size: 12pt;
+    margin: 0 10px 20px 200px;
+    line-height: 20px;
+}
+body div#layout main.home img#chip{
+    width: 220px;
+    height: 200px;
+    float: right;
+    margin: 0 10px 5px 0;
+}
+p#main_chip_p{
+    margin: 0 0 5px 200px;
+    text-align: left;
+    font-size: 12pt;
+}
+ul#main_chip_list{
+    list-style-type: disc;
+    margin: 15px 0 5px 250px;
+    text-align: left;
+    font-size: 12pt; 
+    line-height: 20px;
+}/* FIM CSS HOME */
+/*Início CSS PRINCIPAIS NOTÍCIAS*/
+body div#layout main ul li #img1, body div#layout main ul li #img2, body div#layout main ul li #img3, body div#layout main ul li #img4, body div#layout main ul li #img5, body div#layout main ul li #img6 {
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+    margin: 15px 0 15px 0;
+}
+body div#layout main ul#Notiprincipais li{
+    display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    width: 70%;
+}
+body div#layout main ul#Notiprincipais li p{
+    margin: 20px 0 0 10px;
+    font-size: 12pt;
+}
+body div#layout main ul#Notiprincipais li:nth-child(1){
+    border-top: 1px solid black;
+    margin-left: 200px;
+    width: 70%;
+}/*FINAL CSS PRINCIPAIS NOTÍCIAS*/
+/*INÍCIO CSS MONTAGEM E MANUTENÇÃO*/
+body div#layout main.Montagem img{
+    width: 20%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+body div#layout main.Montagem ul#Manutenção{
+    margin: 40px 0 5px 320px;
+}
+body div#layout main.Montagem ul#Manutenção li{
+    list-style-type: disc;
+    line-height: 25px;
+    font-size: 12pt;
+}/*FINAL CSS MONTAGEM E MANUTENÇÃO*/
+/*Início Css Suporte e Adm de Redes*/
+body div#layout main.Suporte img{
+    width: 20%;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+body div#layout main.Suporte ul#AdmRedes{
+    margin: 40px 0 5px 220px;
+}
+body div#layout main.Suporte ul#AdmRedes li{
+    list-style-type: disc;
+    line-height: 25px;
+    font-size: 12pt;
+}/*FINAL Css Suporte e Adm de Redes*/
+/*INÍCIO CSS DESENVOLVIMENTO SISTEMAS*/
+body div#layout main.sistemas img{
+    width: 20%;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 25px;
+}
+body div#layout main.sistemas ul#desenvsystem{
+    margin: 30px 0 5px 310px;
+}
+body div#layout main.sistemas ul#desenvsystem li{
+    list-style-type: disc;
+    line-height: 25px;
+    font-size: 12pt;
+}/*FINAL CSS DESENVOLVIMENTO SISTEMAS*/
+/*INÍCIO CSS DESENVOLVIMENTO DE WEBSITES*/
+body div#layout main.websites img{
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 5px;
+}
+body div#layout main.websites ul#desenvwebsites{
+    margin: 30px 0 30px 250px;
+}
+body div#layout main.websites ul#desenvwebsites li{
+    list-style-type: disc;
+    line-height: 22px;
+    font-size: 12pt;
+}/*FINAL CSS DESENVOLVIMENTO DE WEBSITES*/
+/*INÍCIO CSS CONTATO*/
+body main#contact h1{
+    text-align: center;
+    margin: 30px 0 20px 200px;
+    font-weight: bold;
+    font-size: 15pt;
+    border-bottom: double 1px black;
+    width: 72%;
+}body main#contact p#motu{
+    margin: 0 0 50px 400px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+body main#contact form div.dadospessoais{
+    border: solid 1px rgb(140, 2, 2);
+    margin-left: 200px;
+    width: 71%;
+    font-size: 12pt;
+}
+body main#contact form div#person{
+    border: solid 1px rgba(240, 128, 128, 0.678);
+    margin-left: 0.01px;
+    width: 99.999%;
+    margin-bottom: -2px;
+}
+body main#contact form div.dadospessoais div p, body main#contact form div.dadossolicitacao div p{
+    margin: -6px 0 20px 5px;
+    font-size: 8pt;
+    color: rgb(140, 2, 2); 
+}
+body main#contact form div.dadospessoais div#nome, body main#contact form div.dadospessoais div#em{
+    margin: 0 0 20px 10px;
+}
+body main#contact form div.dadospessoais div input, body main#contact form div.dadossolicitacao div input{
+    border-style: inset none none inset;
+    border-width: 2px;
+    border-color: rgba(202, 202, 202, 0.945);
+    background-color: rgba(202, 202, 202, 0.5);
+}
+body main#contact form div.dadospessoais div input#email01{
+    width: 350px;
+}
+body main#contact form div.dadospessoais div#email01{   
+    margin: 0 0 10px 0;
+}
+body main#contact form div.dadossolicitacao{
+    margin-top: 25px;
+    border: solid 1px rgb(140, 2, 2);
+    margin-left: 200px;
+    width: 71%;
+    font-size: 12pt;
+}
+body main#contact form div#Dado{
+    border: solid 1px rgba(240, 128, 128, 0.678);
+    margin-left: 0.01px;
+    margin-bottom: -2px;
+    width: 99.999%;
+}
+body main#contact form div.dadossolicitacao div#Dado div#assunto{
+    margin: 5px 0 20px 10px;
+}
+body main#contact form div.dadossolicitacao div#Dado input#checkbox {
+    margin: 5px 0 20px 10px;
+}
+body div#layout main#contact form div.dadossolicitacao div#textarea {
+    margin: 5px 0 20px 10px;
+}
+body div#layout main#contact form div.dadossolicitacao div#textarea textarea{
+    border-style: inset none none inset;
+    border-width: 1px;
+    border-color: rgba(202, 202, 202, 0.945);
+    background-color: rgba(202, 202, 202, 0.5);
+}
+body div#layout main#contact form div#fim button{
+    margin: 20px 0 10px 10px;
+    font-size: 12pt;
+}
+body div#layout main#contact form div#fim button#Limpa{
+    margin-left: 25px;
+}
+
+/*FINAL CSS CONTATO*/

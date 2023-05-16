@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <script src="JS/script.js"></script>
+</head>
+<body>
+    <div id="layout">
+        <header>
+            <p>TOPO</p>
+        </header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Principais_Noticias.html">Principais Notícias</a></li>
+                <li><a href="Mont_Manut.html">Montagem e Manutenção</a></li>
+                <li><a href="Suporte_Adm_Redes.html">Suporte e Administração de Redes</a></li>
+                <li><a href="Desenv_Sistema.html">Desenvolvimento de Sistemas</a></li>
+                <li><a href="Desenv_Web.html">Desenvolvimento de Websites</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav> 
+        <main id="contact">
+            <h1>MOTU SYSTEMS</h1>
+                <p id="motu">MOTU - (11) 1234-4567</p>
+                <form>
+                    <!-- <fieldset> USADO PARA AGRUPAR DADOS DE UM MESMO CAMPO--> 
+                    <div class="dadospessoais">
+                        <div id="person">
+                            <p>Dados Pessoais</p>                        
+                            <div id="nome">Nome: <input type="text" id="name"></div> 
+                            <div id="em">E-mail: <input id="email01" type="email" autocomplete="off"></div>
+                        </div>                        
+                    </div>
+                    <!--</fieldset>-->
+                    <div class="dadossolicitacao">
+                        <div id="Dado">
+                            <p>Dados da Solicitação</p>
+                        <div id="assunto">
+                            <label for="assunto">Assunto:</label>
+                                <select id="assunto">
+                                    <option value="0">Selecione</option>
+                                    <option value="1">Montagem e Manutenção</option>
+                                    <option value="2">Suporte e Administração de Redes</option>
+                                    <option value="3">Desenvolvimento de Sistemas</option>
+                                    <option value="4">Desenvolvimento de Websites</option>
+                                </select >
+                        </div> 
+                        <div id="textarea">
+                            <label for="descricao">Descrição:</label>
+                            <textarea rows="5" cols="30" id="descricao"></textarea>
+                        </div>    
+                            <input type="checkbox" id="checkbox"> Desejo receber informações do site por e-mail.
+                        </div>                        
+                    </div>
+                    <div id="fim">                
+                        <button onclick="return validarFormulario()">Enviar</button>
+                        <button type="reset" id="Limpa">Limpar</button>
+                    </div>
+                </form>
+            </main>
+        <footer>
+            <p id="footer"> © 2013 - Desenvolvido por <span>MOTU Systems</span></p> 
+        </footer> 
+    </div> 
+</body>
+</html>
